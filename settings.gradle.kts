@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "OOMapp"
 include(":app")
- 
+include(":app:nativelib")
