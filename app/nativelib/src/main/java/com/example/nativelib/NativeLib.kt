@@ -8,6 +8,14 @@ class NativeLib {
      */
     external fun stringFromJNI(): String
 
+    /**
+     * A native method that is implemented by the 'nativelib' native library,
+     * which is packaged with this application.
+     */
+    external fun nativeOOM(): String
+
+    external fun nativeNPE(): String
+
     companion object {
         // Used to load the 'nativelib' library on application startup.
         init {
