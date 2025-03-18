@@ -1,5 +1,8 @@
 #include <jni.h>
 #include <string>
+#include <iostream>
+#include <exception>
+#include <cstdlib>
 
 extern "C" JNIEXPORT jstring JNICALL
 Java_com_example_nativelib_NativeLib_stringFromJNI(
@@ -33,6 +36,26 @@ Java_com_example_nativelib_NativeLib_nativeNPE(
     int *ptr = nullptr;
     *ptr = 42;
 
-    std::string hello = "Hello from C++";
+    std::string hello = "Hello from C++ nativeNPE";
+    return env->NewStringUTF(hello.c_str());
+}
+
+//
+// Глобальный обработчик для необработанных исключений
+void terminate_handler() {
+    std::cerr << "Необработанное исключение! Завершаем программу.\n";
+    std::abort();  // Завершаем программу, если исключение не обработано
+}
+
+extern "C" JNIEXPORT jstring JNICALL
+Java_com_example_nativelib_NativeLib_setNativeHandler(
+        JNIEnv *env,
+        jobject /* this */
+) {
+    // Устанавливаем глобальный обработчик
+    std::set_terminate(terminate_handler);
+
+
+    std::string hello = "Hello from C++ setNativeHandler";
     return env->NewStringUTF(hello.c_str());
 }

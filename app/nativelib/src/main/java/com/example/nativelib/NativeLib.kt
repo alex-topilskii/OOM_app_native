@@ -15,6 +15,7 @@ class NativeLib {
     external fun nativeOOM(): String
 
     external fun nativeNPE(): String
+    external fun setNativeHandler(): String
 
     companion object {
         // Used to load the 'nativelib' library on application startup.

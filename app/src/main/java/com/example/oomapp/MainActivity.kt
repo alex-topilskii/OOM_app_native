@@ -40,10 +40,12 @@ import java.time.format.DateTimeFormatter
 class MainActivity : ComponentActivity() {
     val listLoop = mutableListOf<ByteArray>()
     val list200 = mutableListOf<ByteArray>()
+    val nativeLib = NativeLib()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        nativeLib.setNativeHandler()
 
         setContent {
             OOMappTheme {
@@ -80,7 +82,7 @@ class MainActivity : ComponentActivity() {
         if (gl?.contains("GL_NVX_gpu_memory_info") == true) {
             println("Intag: MainActivity:onCreate: contains")
         }
-        val stringFromCpp = NativeLib().stringFromJNI()
+        val stringFromCpp = nativeLib.stringFromJNI()
         println("Intag: MainActivity:onCreate: $stringFromCpp")
     }
 
@@ -90,7 +92,7 @@ class MainActivity : ComponentActivity() {
             Button(
                 onClick = {
                     try {
-                        NativeLib().nativeNPE()
+                       nativeLib.nativeNPE()
 
                     } catch (e: Exception) {
                         println("Intag: MainActivity:NativeColumn: $e")
@@ -101,7 +103,7 @@ class MainActivity : ComponentActivity() {
             }
             Button(
                 onClick = {
-                    NativeLib().nativeOOM()
+                   nativeLib.nativeOOM()
                 }
             ) {
                 Text("Throw cpp OOM")
