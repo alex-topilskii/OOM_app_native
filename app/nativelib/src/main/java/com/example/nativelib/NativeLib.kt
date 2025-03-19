@@ -13,6 +13,7 @@ class NativeLib {
      * which is packaged with this application.
      */
     external fun nativeOOM(): String
+    external fun add100Mb(): String
 
     external fun nativeNPE(): String
     external fun setNativeHandler(): String

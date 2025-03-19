@@ -27,6 +27,19 @@ Java_com_example_nativelib_NativeLib_nativeOOM(
 }
 
 extern "C" JNIEXPORT jstring JNICALL
+Java_com_example_nativelib_NativeLib_add100Mb(
+        JNIEnv *env,
+        jobject /* this */
+) {
+
+    const size_t large_size = 1024 * 1024 * 25;
+    int *large_array = new int[large_size];
+
+    std::string hello = "Hello from C++";
+    return env->NewStringUTF(hello.c_str());
+}
+
+extern "C" JNIEXPORT jstring JNICALL
 Java_com_example_nativelib_NativeLib_nativeNPE(
         JNIEnv *env,
         jobject /* this */

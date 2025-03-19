@@ -5,6 +5,7 @@ import android.app.Instrumentation
 import android.content.Context
 import android.opengl.GLES20
 import android.os.Bundle
+import android.os.Debug
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -108,6 +109,13 @@ class MainActivity : ComponentActivity() {
             ) {
                 Text("Throw cpp OOM")
             }
+            Button(
+                onClick = {
+                   nativeLib.add100Mb()
+                }
+            ) {
+                Text("Add 100mb cpp")
+            }
         }
     }
 
@@ -152,27 +160,42 @@ class MainActivity : ComponentActivity() {
 
         val totalRam = memoryInfo.totalMem / (1024 * 1024)
         val availableRam = memoryInfo.availMem / (1024 * 1024)
+        val threshold = memoryInfo.threshold / (1024 * 1024)
 
         val maxMemory = Runtime.getRuntime().maxMemory() / (1024 * 1024) // в МБ
         val totalMemory = Runtime.getRuntime().totalMemory() / (1024 * 1024) // в МБ
         val freeMemory = Runtime.getRuntime().freeMemory() / (1024 * 1024) // в МБ
-        val glError = GLES20.glGetError()
-//        println("Intag Всего оперативной памяти: ${totalRam}MB")
-//        println("Intag Свободно оперативной памяти: ${availableRam}MB")
-//        println("Intag Максимальная память приложения: $maxMemory MB")
-//        println("Intag Всего памяти, выделенной приложению: $totalMemory MB")
-//        println("Intag Свободная память приложения: $freeMemory MB")
-//        println("Intag ____________________________________________")
+
+        val nativeHeapSize = Debug.getNativeHeapSize() / (1024 * 1024) // в MB
+        val nativeHeapAllocated = Debug.getNativeHeapAllocatedSize() / (1024 * 1024) // в MB
+        val nativeHeapFree = Debug.getNativeHeapFreeSize() / (1024 * 1024) // в MB
+
 
         val currentTime = LocalTime.now()
         val formatter = DateTimeFormatter.ofPattern("HH:mm:ss")
         val formattedTime = currentTime.format(formatter)
+        val glError = GLES20.glGetError()
+
+        println("Intag _________________${formattedTime}__${glError}____________________")
+        println("Intag O Всего оперативной памяти: ${totalRam} MB")
+        println("Intag O Свободно оперативной памяти: ${availableRam} MB")
+        println("Intag M Максимальная память приложения: $maxMemory MB")
+        println("Intag M Всего памяти, выделенной приложению: >$totalMemory< MB")
+        println("Intag M Освобожденная память приложения: $freeMemory MB")
+        println("Intag N Размер нативного heap: ${nativeHeapSize} MB")
+        println("Intag N Выделено в нативном heap: >${nativeHeapAllocated}< MB")
+        println("Intag N Освобожденная в нативном heap: ${nativeHeapFree} MB")
+        println("Intag Порог low memory: ${threshold} MB")
 
         return "ALL device RAM: ${totalRam}MB \n" +
                 "Free RAM: ${availableRam}MB\n" +
                 "App ram max: $maxMemory MB\n" +
                 "App ram total: $totalMemory MB\n" +
                 "App ram free: $freeMemory MB\n" +
+                "Native heap size: $nativeHeapSize MB\n" +
+                "Native heap allocated: $nativeHeapAllocated MB\n" +
+                "Native heap free: $nativeHeapFree MB\n" +
+                "Low memory threshold: $threshold MB\n" +
                 "$formattedTime\n + $glError"
     }
 }
