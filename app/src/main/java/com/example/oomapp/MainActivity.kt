@@ -83,8 +83,6 @@ class MainActivity : ComponentActivity() {
         if (gl?.contains("GL_NVX_gpu_memory_info") == true) {
             println("Intag: MainActivity:onCreate: contains")
         }
-        val stringFromCpp = nativeLib.stringFromJNI()
-        println("Intag: MainActivity:onCreate: $stringFromCpp")
     }
 
     @Composable
@@ -92,29 +90,30 @@ class MainActivity : ComponentActivity() {
         Column {
             Button(
                 onClick = {
-                    try {
-                       nativeLib.nativeNPE()
-
-                    } catch (e: Exception) {
-                        println("Intag: MainActivity:NativeColumn: $e")
-                    }
+                    nativeLib.nativeNPE()
                 }
             ) {
                 Text("Throw cpp NPE")
             }
             Button(
-                onClick = {
-                   nativeLib.nativeOOM()
-                }
+                onClick = { nativeLib.nativeOOM() }
             ) {
-                Text("Throw cpp OOM")
+                Text("Throw cpp OOM (4gb)")
             }
             Button(
-                onClick = {
-                   nativeLib.add100Mb()
-                }
+                onClick = { nativeLib.nativeOOMFill() }
+            ) {
+                Text("Throw cpp OOM (4gb) fill")
+            }
+            Button(
+                onClick = { nativeLib.add100Mb() }
             ) {
                 Text("Add 100mb cpp")
+            }
+            Button(
+                onClick = { nativeLib.add100MbFill() }
+            ) {
+                Text("Add 100mb cpp fill")
             }
         }
     }
