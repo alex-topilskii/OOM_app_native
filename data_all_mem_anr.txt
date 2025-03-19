@@ -1,0 +1,186 @@
+--------------------
+Tue Mar 18 16:18:00 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   797,670K (  532,854K cached pss +   207,324K cached kernel +    57,492K free)
+ Used RAM: 1,317,556K (1,134,376K used pss +   183,180K kernel)
+ Lost RAM:   113,510K
+     ZRAM:   206,236K physical used for   591,128K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:18:06 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   812,649K (  531,741K cached pss +   210,248K cached kernel +    70,660K free)
+ Used RAM: 1,321,836K (1,138,460K used pss +   183,376K kernel)
+ Lost RAM:    25,458K
+     ZRAM:   229,400K physical used for   634,048K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:18:11 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   795,521K (  531,569K cached pss +   214,144K cached kernel +    49,808K free)
+ Used RAM: 1,394,578K (1,211,982K used pss +   182,596K kernel)
+ Lost RAM:    10,493K
+     ZRAM:   229,124K physical used for   630,188K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:18:17 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   835,331K (  572,535K cached pss +   215,288K cached kernel +    47,508K free)
+ Used RAM: 1,309,960K (1,127,480K used pss +   182,480K kernel)
+ Lost RAM:    53,432K
+     ZRAM:   228,472K physical used for   624,592K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:18:22 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   831,138K (  568,874K cached pss +   202,492K cached kernel +    59,772K free)
+ Used RAM: 1,307,808K (1,125,356K used pss +   182,452K kernel)
+ Lost RAM:    52,308K
+     ZRAM:   219,432K physical used for   606,380K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:18:28 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   834,075K (  558,183K cached pss +   215,908K cached kernel +    59,984K free)
+ Used RAM: 1,304,966K (1,122,450K used pss +   182,516K kernel)
+ Lost RAM:    73,890K
+     ZRAM:   229,312K physical used for   628,156K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:18:33 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   826,984K (  562,152K cached pss +   213,732K cached kernel +    51,100K free)
+ Used RAM: 1,314,096K (1,131,404K used pss +   182,692K kernel)
+ Lost RAM:    53,309K
+     ZRAM:   228,212K physical used for   622,032K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:18:39 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   843,666K (  574,354K cached pss +   217,436K cached kernel +    51,876K free)
+ Used RAM: 1,301,289K (1,117,761K used pss +   183,528K kernel)
+ Lost RAM:    48,295K
+     ZRAM:   227,392K physical used for   622,944K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:18:44 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   831,838K (  567,590K cached pss +   216,316K cached kernel +    47,932K free)
+ Used RAM: 1,306,286K (1,122,806K used pss +   183,480K kernel)
+ Lost RAM:    68,981K
+     ZRAM:   214,364K physical used for   588,280K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:18:50 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   821,705K (  560,257K cached pss +   212,580K cached kernel +    48,868K free)
+ Used RAM: 1,303,600K (1,119,608K used pss +   183,992K kernel)
+ Lost RAM:    49,960K
+     ZRAM:   205,452K physical used for   579,720K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:18:56 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   821,765K (  556,669K cached pss +   212,824K cached kernel +    52,272K free)
+ Used RAM: 1,305,418K (1,121,358K used pss +   184,060K kernel)
+ Lost RAM:    47,922K
+     ZRAM:   205,452K physical used for   579,580K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:19:01 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   824,269K (  557,629K cached pss +   215,584K cached kernel +    51,056K free)
+ Used RAM: 1,303,510K (1,119,430K used pss +   184,080K kernel)
+ Lost RAM:    47,186K
+     ZRAM:   205,320K physical used for   579,172K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:19:07 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   830,600K (  561,760K cached pss +   216,204K cached kernel +    52,636K free)
+ Used RAM: 1,295,679K (1,111,567K used pss +   184,112K kernel)
+ Lost RAM:    48,270K
+     ZRAM:   205,300K physical used for   578,828K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:19:13 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   819,666K (  545,798K cached pss +   201,888K cached kernel +    71,980K free)
+ Used RAM: 1,338,408K (1,154,372K used pss +   184,036K kernel)
+ Lost RAM:    13,537K
+     ZRAM:   203,968K physical used for   566,476K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:19:18 EET 2025
+--------------------
+--------------------
+Tue Mar 18 16:43:27 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   711,025K (  302,197K cached pss +   339,712K cached kernel +    69,116K free)
+ Used RAM: 1,318,260K (1,136,928K used pss +   181,332K kernel)
+ Lost RAM:    76,380K
+     ZRAM:   109,332K physical used for   420,364K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:43:33 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   708,684K (  302,160K cached pss +   340,004K cached kernel +    66,520K free)
+ Used RAM: 1,320,182K (1,138,834K used pss +   181,348K kernel)
+ Lost RAM:    76,575K
+     ZRAM:   109,164K physical used for   420,228K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:43:38 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   705,710K (  302,146K cached pss +   339,988K cached kernel +    63,576K free)
+ Used RAM: 1,320,999K (1,139,595K used pss +   181,404K kernel)
+ Lost RAM:    78,604K
+     ZRAM:   108,896K physical used for   419,440K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:43:44 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   718,898K (  302,234K cached pss +   340,400K cached kernel +    76,264K free)
+ Used RAM: 1,325,086K (1,143,686K used pss +   181,400K kernel)
+ Lost RAM:    51,145K
+     ZRAM:   116,496K physical used for   442,100K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:43:50 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   716,315K (  302,091K cached pss +   337,812K cached kernel +    76,412K free)
+ Used RAM: 1,325,350K (1,143,998K used pss +   181,352K kernel)
+ Lost RAM:    77,820K
+     ZRAM:   116,464K physical used for   441,792K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:43:55 EET 2025
+--------------------
+Total RAM: 1,824,256K (status normal)
+ Free RAM:   687,022K (  302,042K cached pss +   331,204K cached kernel +    53,776K free)
+ Used RAM: 1,349,589K (1,167,909K used pss +   181,680K kernel)
+ Lost RAM:    80,159K
+     ZRAM:   116,440K physical used for   441,596K in swap (1,003,336K total swap)
+   Tuning: 256 (large 512), oom   399,360K, restore limit   133,120K (high-end-gfx)
+--------------------
+Tue Mar 18 16:44:01 EET 2025
+--------------------

@@ -1,0 +1,1049 @@
+--------------------
+Tue Mar 18 16:18:05 EET 2025
+--------------------
+Applications Memory Usage (in Kilobytes):
+Uptime: 92808340 Realtime: 369605160
+
+** MEMINFO in pid 25711 [com.example.oomapp] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     7642     7500        0       30    14856     7973     6882
+  Dalvik Heap     3800     3776        0       44     6415     3208     3207
+ Dalvik Other     2337     2332        0        0                           
+        Stack      132      132        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev       13        0       12        0                           
+     .so mmap     5694      140     1688        3                           
+    .jar mmap     3607        0      784        0                           
+    .apk mmap     1623       28      596        0                           
+    .ttf mmap      428        0      260        0                           
+    .dex mmap    26077    26076        0        0                           
+    .oat mmap      157        0       28        0                           
+    .art mmap     4257     4036        0       26                           
+   Other mmap      868      252        8        0                           
+   EGL mtrack     4216     4216        0        0                           
+    GL mtrack     8652     8652        0        0                           
+      Unknown      755      736        0        0                           
+        TOTAL    70363    57876     3376      103    21271    11181    10089
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     7812
+         Native Heap:     7500
+                Code:    29600
+               Stack:      132
+            Graphics:    12868
+       Private Other:     3340
+              System:     9111
+ 
+               TOTAL:    70363       TOTAL SWAP PSS:      103
+ 
+ Objects
+               Views:       14         ViewRootImpl:        2
+         AppContexts:        8           Activities:        2
+              Assets:       21        AssetManagers:        0
+       Local Binders:       12        Proxy Binders:       33
+       Parcel memory:        2         Parcel count:       11
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+--------------------
+Tue Mar 18 16:18:11 EET 2025
+--------------------
+Applications Memory Usage (in Kilobytes):
+Uptime: 92813884 Realtime: 369610704
+
+** MEMINFO in pid 25711 [com.example.oomapp] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     7836     7696        0       32    21304     8248    13055
+  Dalvik Heap     3421     3364        0       19   204461   198317     6144
+ Dalvik Other     2269     2264        0        0                           
+        Stack      132      132        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev       13        0       12        0                           
+     .so mmap     5738      140     1688        6                           
+    .jar mmap     3802        0      928        0                           
+    .apk mmap     1635       28      596        0                           
+    .ttf mmap      428        0      260        0                           
+    .dex mmap    26077    26076        0        0                           
+    .oat mmap      169        0       28        0                           
+    .art mmap     4665     4348       28       13                           
+   Other mmap     1010      300        8        0                           
+   EGL mtrack     4216     4216        0        0                           
+    GL mtrack     8654     8654        0        0                           
+      Unknown      767      748        0        0                           
+        TOTAL    70904    57966     3548       70   225765   206565    19199
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     7740
+         Native Heap:     7696
+                Code:    29744
+               Stack:      132
+            Graphics:    12870
+       Private Other:     3332
+              System:     9390
+ 
+               TOTAL:    70904       TOTAL SWAP PSS:       70
+ 
+ Objects
+               Views:        9         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       12        Proxy Binders:       30
+       Parcel memory:        3         Parcel count:       12
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+--------------------
+Tue Mar 18 16:18:16 EET 2025
+--------------------
+Applications Memory Usage (in Kilobytes):
+Uptime: 92819454 Realtime: 369616274
+
+** MEMINFO in pid 25711 [com.example.oomapp] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     6395     6296        0       32     9644     7843     1800
+  Dalvik Heap     3474     3412        0       19   302128   295984     6144
+ Dalvik Other     2261     2256        0        0                           
+        Stack      132      132        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev       13        0       12        0                           
+     .so mmap     5242      140     1524        6                           
+    .jar mmap     3002        0      428        0                           
+    .apk mmap     1595       28      576        0                           
+    .ttf mmap      224        0       36        0                           
+    .dex mmap    26077    26076        0        0                           
+    .oat mmap      131        0        0        0                           
+    .art mmap     4659     4352       20       13                           
+   Other mmap      991      300        0        0                           
+   EGL mtrack     4216     4216        0        0                           
+    GL mtrack     8653     8653        0        0                           
+      Unknown      759      740        0        0                           
+        TOTAL    67896    56601     2596       70   311772   303827     7944
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     7784
+         Native Heap:     6296
+                Code:    28808
+               Stack:      132
+            Graphics:    12869
+       Private Other:     3308
+              System:     8699
+ 
+               TOTAL:    67896       TOTAL SWAP PSS:       70
+ 
+ Objects
+               Views:        9         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       12        Proxy Binders:       30
+       Parcel memory:        3         Parcel count:       12
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+--------------------
+Tue Mar 18 16:18:22 EET 2025
+--------------------
+Applications Memory Usage (in Kilobytes):
+Uptime: 92824825 Realtime: 369621645
+
+** MEMINFO in pid 25711 [com.example.oomapp] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     7007     6908        0       32    14268     6695     7572
+  Dalvik Heap     3630     3568        0       19   302130   295986     6144
+ Dalvik Other     2265     2260        0        0                           
+        Stack      132      132        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev       13        0       12        0                           
+     .so mmap     5243      140     1524        6                           
+    .jar mmap     2996        0      428        0                           
+    .apk mmap     1595       28      576        0                           
+    .ttf mmap      224        0       36        0                           
+    .dex mmap    26077    26076        0        0                           
+    .oat mmap      130        0        0        0                           
+    .art mmap     4659     4352       20       13                           
+   Other mmap     1027      300        0        0                           
+   EGL mtrack     4216     4216        0        0                           
+    GL mtrack     8653     8653        0        0                           
+      Unknown      759      740        0        0                           
+        TOTAL    68698    57373     2596       70   316398   302681    13716
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     7940
+         Native Heap:     6908
+                Code:    28808
+               Stack:      132
+            Graphics:    12869
+       Private Other:     3312
+              System:     8729
+ 
+               TOTAL:    68698       TOTAL SWAP PSS:       70
+ 
+ Objects
+               Views:        9         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       12        Proxy Binders:       30
+       Parcel memory:        3         Parcel count:       12
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+--------------------
+Tue Mar 18 16:18:27 EET 2025
+--------------------
+Applications Memory Usage (in Kilobytes):
+Uptime: 92830250 Realtime: 369627070
+
+** MEMINFO in pid 25711 [com.example.oomapp] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     6955     6856        0       32    13640     6630     7009
+  Dalvik Heap     3634     3572        0       19   302178   296034     6144
+ Dalvik Other     2261     2256        0        0                           
+        Stack      132      132        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev       13        0       12        0                           
+     .so mmap     5225      140     1524        6                           
+    .jar mmap     3037        0      476        0                           
+    .apk mmap     1235       28      576        0                           
+    .ttf mmap      224        0       36        0                           
+    .dex mmap    26077    26076        0        0                           
+    .oat mmap      130        0        0        0                           
+    .art mmap     4659     4352       20       13                           
+   Other mmap     1069      312        0        0                           
+   EGL mtrack     4216     4216        0        0                           
+    GL mtrack     8653     8653        0        0                           
+      Unknown      759      740        0        0                           
+        TOTAL    68351    57333     2644       70   315818   302664    13153
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     7944
+         Native Heap:     6856
+                Code:    28856
+               Stack:      132
+            Graphics:    12869
+       Private Other:     3320
+              System:     8374
+ 
+               TOTAL:    68351       TOTAL SWAP PSS:       70
+ 
+ Objects
+               Views:        9         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       12        Proxy Binders:       30
+       Parcel memory:        3         Parcel count:       12
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+--------------------
+Tue Mar 18 16:18:33 EET 2025
+--------------------
+Applications Memory Usage (in Kilobytes):
+Uptime: 92835772 Realtime: 369632592
+
+** MEMINFO in pid 25711 [com.example.oomapp] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     6311     6212        0       32     8808     6877     1930
+  Dalvik Heap     3362     3300        0       19   497457   491313     6144
+ Dalvik Other     2017     2012        0        0                           
+        Stack      132      132        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev        9        0        8        0                           
+     .so mmap     5226      140     1524        6                           
+    .jar mmap     3029        0      428        0                           
+    .apk mmap     1235       28      576        0                           
+    .ttf mmap      224        0       36        0                           
+    .dex mmap    26077    26076        0        0                           
+    .oat mmap      128        0        0        0                           
+    .art mmap     4659     4352       20       13                           
+   Other mmap     1150      336        0        0                           
+   EGL mtrack     3450     3450        0        0                           
+    GL mtrack     8653     8653        0        0                           
+      Unknown      759      740        0        0                           
+        TOTAL    66493    55431     2592       70   506265   498190     8074
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     7672
+         Native Heap:     6212
+                Code:    28808
+               Stack:      132
+            Graphics:    12103
+       Private Other:     3096
+              System:     8470
+ 
+               TOTAL:    66493       TOTAL SWAP PSS:       70
+ 
+ Objects
+               Views:        9         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       11        Proxy Binders:       30
+       Parcel memory:        3         Parcel count:       14
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+--------------------
+Tue Mar 18 16:18:38 EET 2025
+--------------------
+Applications Memory Usage (in Kilobytes):
+Uptime: 92841385 Realtime: 369638205
+
+** MEMINFO in pid 25711 [com.example.oomapp] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     6895     6796        0       32    13536     6947     6588
+  Dalvik Heap     3627     3560        0       19   497482   491338     6144
+ Dalvik Other     1905     1900        0        0                           
+        Stack      132      132        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev        9        0        8        0                           
+     .so mmap     5236      140     1524        6                           
+    .jar mmap     2861        0      400        0                           
+    .apk mmap     1231       28      576        0                           
+    .ttf mmap      224        0       36        0                           
+    .dex mmap    26077    26076        0        0                           
+    .oat mmap      123        0        0        0                           
+    .art mmap     4658     4352       20       13                           
+   Other mmap     1184      352        0        0                           
+   EGL mtrack     4216     4216        0        0                           
+    GL mtrack     8653     8653        0        0                           
+      Unknown      760      740        0        0                           
+        TOTAL    67863    56945     2564       70   511018   498285    12732
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     7932
+         Native Heap:     6796
+                Code:    28780
+               Stack:      132
+            Graphics:    12869
+       Private Other:     3000
+              System:     8354
+ 
+               TOTAL:    67863       TOTAL SWAP PSS:       70
+ 
+ Objects
+               Views:        9         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       11        Proxy Binders:       30
+       Parcel memory:        3         Parcel count:       14
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+--------------------
+Tue Mar 18 16:18:44 EET 2025
+--------------------
+Applications Memory Usage (in Kilobytes):
+Uptime: 92846854 Realtime: 369643674
+
+** MEMINFO in pid 25711 [com.example.oomapp] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     6911     6812        0       32    13576     6986     6589
+  Dalvik Heap     3675     3608        0       19   497452   491308     6144
+ Dalvik Other     1905     1900        0        0                           
+        Stack      132      132        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev        9        0        8        0                           
+     .so mmap     5235      140     1524        6                           
+    .jar mmap     2860        0      400        0                           
+    .apk mmap     1231       28      576        0                           
+    .ttf mmap      224        0       36        0                           
+    .dex mmap    26077    26076        0        0                           
+    .oat mmap      123        0        0        0                           
+    .art mmap     4658     4352       20       13                           
+   Other mmap     1228      368        0        0                           
+   EGL mtrack     4216     4216        0        0                           
+    GL mtrack     8653     8653        0        0                           
+      Unknown      760      740        0        0                           
+        TOTAL    67969    57025     2564       70   511028   498294    12733
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     7980
+         Native Heap:     6812
+                Code:    28780
+               Stack:      132
+            Graphics:    12869
+       Private Other:     3016
+              System:     8380
+ 
+               TOTAL:    67969       TOTAL SWAP PSS:       70
+ 
+ Objects
+               Views:        9         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       11        Proxy Binders:       30
+       Parcel memory:        3         Parcel count:       14
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+--------------------
+Tue Mar 18 16:18:49 EET 2025
+--------------------
+Applications Memory Usage (in Kilobytes):
+Uptime: 92852638 Realtime: 369649458
+
+** MEMINFO in pid 25711 [com.example.oomapp] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     6907     6808        0       32    13548     6962     6585
+  Dalvik Heap     3675     3608        0       19   497452   491308     6144
+ Dalvik Other     1901     1896        0        0                           
+        Stack      132      132        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev        9        0        8        0                           
+     .so mmap     5235      140     1524        6                           
+    .jar mmap     2860        0      400        0                           
+    .apk mmap     1231       28      576        0                           
+    .ttf mmap      224        0       36        0                           
+    .dex mmap    26077    26076        0        0                           
+    .oat mmap      123        0        0        0                           
+    .art mmap     4658     4352       20       13                           
+   Other mmap     1260      376        0        0                           
+   EGL mtrack     4216     4216        0        0                           
+    GL mtrack     8653     8653        0        0                           
+      Unknown      760      740        0        0                           
+        TOTAL    67993    57025     2564       70   511000   498270    12729
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     7980
+         Native Heap:     6808
+                Code:    28780
+               Stack:      132
+            Graphics:    12869
+       Private Other:     3020
+              System:     8404
+ 
+               TOTAL:    67993       TOTAL SWAP PSS:       70
+ 
+ Objects
+               Views:        9         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       11        Proxy Binders:       30
+       Parcel memory:        3         Parcel count:       14
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+--------------------
+Tue Mar 18 16:18:55 EET 2025
+--------------------
+Applications Memory Usage (in Kilobytes):
+Uptime: 92858186 Realtime: 369655006
+
+** MEMINFO in pid 25711 [com.example.oomapp] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     6171     6072        0       32     8576     6923     1652
+  Dalvik Heap     3631     3564        0       19   497450   491306     6144
+ Dalvik Other     1905     1900        0        0                           
+        Stack      132      132        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev        9        0        8        0                           
+     .so mmap     5235      140     1524        6                           
+    .jar mmap     2860        0      400        0                           
+    .apk mmap     1231       28      576        0                           
+    .ttf mmap      224        0       36        0                           
+    .dex mmap    26077    26076        0        0                           
+    .oat mmap      123        0        0        0                           
+    .art mmap     4658     4352       20       13                           
+   Other mmap     1300      388        0        0                           
+   EGL mtrack     4216     4216        0        0                           
+    GL mtrack     8653     8653        0        0                           
+      Unknown      760      740        0        0                           
+        TOTAL    67257    56261     2564       70   506026   498229     7796
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     7936
+         Native Heap:     6072
+                Code:    28780
+               Stack:      132
+            Graphics:    12869
+       Private Other:     3036
+              System:     8432
+ 
+               TOTAL:    67257       TOTAL SWAP PSS:       70
+ 
+ Objects
+               Views:        9         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       11        Proxy Binders:       30
+       Parcel memory:        3         Parcel count:       14
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+--------------------
+Tue Mar 18 16:19:01 EET 2025
+--------------------
+Applications Memory Usage (in Kilobytes):
+Uptime: 92863838 Realtime: 369660658
+
+** MEMINFO in pid 25711 [com.example.oomapp] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     6855     6756        0       32    13460     6920     6539
+  Dalvik Heap     3675     3608        0       19   497452   491308     6144
+ Dalvik Other     1901     1896        0        0                           
+        Stack      132      132        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev        9        0        8        0                           
+     .so mmap     5235      140     1524        6                           
+    .jar mmap     2860        0      400        0                           
+    .apk mmap     1231       28      576        0                           
+    .ttf mmap      224        0       36        0                           
+    .dex mmap    26077    26076        0        0                           
+    .oat mmap      123        0        0        0                           
+    .art mmap     4658     4352       20       13                           
+   Other mmap     1336      400        0        0                           
+   EGL mtrack     4216     4216        0        0                           
+    GL mtrack     8653     8653        0        0                           
+      Unknown      760      740        0        0                           
+        TOTAL    68017    56997     2564       70   510912   498228    12683
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     7980
+         Native Heap:     6756
+                Code:    28780
+               Stack:      132
+            Graphics:    12869
+       Private Other:     3044
+              System:     8456
+ 
+               TOTAL:    68017       TOTAL SWAP PSS:       70
+ 
+ Objects
+               Views:        9         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       11        Proxy Binders:       30
+       Parcel memory:        3         Parcel count:       14
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+--------------------
+Tue Mar 18 16:19:06 EET 2025
+--------------------
+Applications Memory Usage (in Kilobytes):
+Uptime: 92869466 Realtime: 369666286
+
+** MEMINFO in pid 25711 [com.example.oomapp] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     6907     6808        0       32    16948     6976     9971
+  Dalvik Heap     3631     3564        0       19   497498   491354     6144
+ Dalvik Other     1905     1900        0        0                           
+        Stack      132      132        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev        9        0        8        0                           
+     .so mmap     5235      140     1524        6                           
+    .jar mmap     2860        0      400        0                           
+    .apk mmap     1231       28      576        0                           
+    .ttf mmap      224        0       36        0                           
+    .dex mmap    26077    26076        0        0                           
+    .oat mmap      123        0        0        0                           
+    .art mmap     4658     4352       20       13                           
+   Other mmap     1368      412        0        0                           
+   EGL mtrack     4216     4216        0        0                           
+    GL mtrack     8653     8653        0        0                           
+      Unknown      760      740        0        0                           
+        TOTAL    68061    57021     2564       70   514446   498330    16115
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     7936
+         Native Heap:     6808
+                Code:    28780
+               Stack:      132
+            Graphics:    12869
+       Private Other:     3060
+              System:     8476
+ 
+               TOTAL:    68061       TOTAL SWAP PSS:       70
+ 
+ Objects
+               Views:        9         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       11        Proxy Binders:       30
+       Parcel memory:        3         Parcel count:       14
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+--------------------
+Tue Mar 18 16:19:12 EET 2025
+--------------------
+Applications Memory Usage (in Kilobytes):
+Uptime: 92875197 Realtime: 369672017
+
+** MEMINFO in pid 25711 [com.example.oomapp] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     6967     6868        0       32    13684     6851     6832
+  Dalvik Heap     3675     3608        0       19   497452   491308     6144
+ Dalvik Other     1997     1992        0        0                           
+        Stack      132      132        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev        9        0        8        0                           
+     .so mmap     5235      140     1524        6                           
+    .jar mmap     2839        0      360        0                           
+    .apk mmap     1231       28      576        0                           
+    .ttf mmap      224        0       36        0                           
+    .dex mmap    26077    26076        0        0                           
+    .oat mmap      123        0        0        0                           
+    .art mmap     4658     4352       20       13                           
+   Other mmap     1395      420        0        0                           
+   EGL mtrack     4216     4216        0        0                           
+    GL mtrack     8653     8653        0        0                           
+      Unknown      760      740        0        0                           
+        TOTAL    68263    57225     2524       70   511136   498159    12976
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     7980
+         Native Heap:     6868
+                Code:    28740
+               Stack:      132
+            Graphics:    12869
+       Private Other:     3160
+              System:     8514
+ 
+               TOTAL:    68263       TOTAL SWAP PSS:       70
+ 
+ Objects
+               Views:        9         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       11        Proxy Binders:       30
+       Parcel memory:        3         Parcel count:       14
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+--------------------
+Tue Mar 18 16:19:18 EET 2025
+--------------------
+No process found for: com.example.oomapp
+--------------------
+Tue Mar 18 16:43:32 EET 2025
+--------------------
+Applications Memory Usage (in Kilobytes):
+Uptime: 94335113 Realtime: 371131933
+
+** MEMINFO in pid 27793 [com.example.oomapp] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     5360     5228        0       32   466460   464985     1474
+  Dalvik Heap     3872     3836        0       46     6184     3092     3092
+ Dalvik Other     2337     2332        0        0                           
+        Stack      132      132        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev       17        0       16        0                           
+     .so mmap     6177      140     2492        6                           
+    .jar mmap     4436        0     1748        0                           
+    .apk mmap     1663       24      612        0                           
+    .ttf mmap      177        0        8        0                           
+    .dex mmap    26078    26076        0        0                           
+    .oat mmap      168        0        0        0                           
+    .art mmap     4303     4076        0       28                           
+   Other mmap     1075      280      196        0                           
+   EGL mtrack     4216     4216        0        0                           
+    GL mtrack     8644     8644        0        0                           
+      Unknown      754      736        0        1                           
+        TOTAL    69524    55720     5072      113   472644   468077     4566
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     7912
+         Native Heap:     5228
+                Code:    31100
+               Stack:      132
+            Graphics:    12860
+       Private Other:     3560
+              System:     8732
+ 
+               TOTAL:    69524       TOTAL SWAP PSS:      113
+ 
+ Objects
+               Views:        9         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       11        Proxy Binders:       30
+       Parcel memory:        3         Parcel count:       12
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+--------------------
+Tue Mar 18 16:43:38 EET 2025
+--------------------
+Applications Memory Usage (in Kilobytes):
+Uptime: 94340968 Realtime: 371137788
+
+** MEMINFO in pid 27793 [com.example.oomapp] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     5836     5704        0       32   471012   465338     5673
+  Dalvik Heap     3735     3672        0       19     6087     3044     3043
+ Dalvik Other     1945     1940        0        0                           
+        Stack      132      132        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev       17        0       16        0                           
+     .so mmap     6184      140     2492        6                           
+    .jar mmap     4424        0     1720        0                           
+    .apk mmap     1663       24      612        0                           
+    .ttf mmap      177        0        8        0                           
+    .dex mmap    26078    26076        0        0                           
+    .oat mmap      168        0        0        0                           
+    .art mmap     4682     4384       28       13                           
+   Other mmap     1108      288      196        0                           
+   EGL mtrack     4216     4216        0        0                           
+    GL mtrack     8644     8644        0        0                           
+      Unknown      758      740        0        0                           
+        TOTAL    69839    55960     5072       70   477099   468382     8716
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     8084
+         Native Heap:     5704
+                Code:    31072
+               Stack:      132
+            Graphics:    12860
+       Private Other:     3180
+              System:     8807
+ 
+               TOTAL:    69839       TOTAL SWAP PSS:       70
+ 
+ Objects
+               Views:        9         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       11        Proxy Binders:       30
+       Parcel memory:        3         Parcel count:       12
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+--------------------
+Tue Mar 18 16:43:43 EET 2025
+--------------------
+Applications Memory Usage (in Kilobytes):
+Uptime: 94346660 Realtime: 371143480
+
+** MEMINFO in pid 27793 [com.example.oomapp] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     7108     6976        0       32   587220   580065     7154
+  Dalvik Heap     3471     3408        0       19     6073     3037     3036
+ Dalvik Other     1941     1936        0        0                           
+        Stack      132      132        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev       17        0       16        0                           
+     .so mmap     6183      140     2492        6                           
+    .jar mmap     4424        0     1720        0                           
+    .apk mmap     1663       24      612        0                           
+    .ttf mmap      177        0        8        0                           
+    .dex mmap    26078    26076        0        0                           
+    .oat mmap      168        0        0        0                           
+    .art mmap     4682     4384       28       13                           
+   Other mmap     1163      308      196        0                           
+   EGL mtrack     4216     4216        0        0                           
+    GL mtrack     8644     8644        0        0                           
+      Unknown      758      740        0        0                           
+        TOTAL    70897    56984     5072       70   593293   583102    10190
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     7820
+         Native Heap:     6976
+                Code:    31072
+               Stack:      132
+            Graphics:    12860
+       Private Other:     3196
+              System:     8841
+ 
+               TOTAL:    70897       TOTAL SWAP PSS:       70
+ 
+ Objects
+               Views:        9         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       11        Proxy Binders:       30
+       Parcel memory:        3         Parcel count:       12
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+--------------------
+Tue Mar 18 16:43:49 EET 2025
+--------------------
+Applications Memory Usage (in Kilobytes):
+Uptime: 94352309 Realtime: 371149129
+
+** MEMINFO in pid 27793 [com.example.oomapp] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     7128     6996        0       32   697832   694672     3159
+  Dalvik Heap     3359     3296        0       19     6071     3036     3035
+ Dalvik Other     1941     1936        0        0                           
+        Stack      132      132        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev       17        0       16        0                           
+     .so mmap     6183      140     2492        6                           
+    .jar mmap     4426        0     1720        0                           
+    .apk mmap     1663       24      612        0                           
+    .ttf mmap      177        0        8        0                           
+    .dex mmap    26078    26076        0        0                           
+    .oat mmap      168        0        0        0                           
+    .art mmap     4682     4384       28       13                           
+   Other mmap     1207      324      196        0                           
+   EGL mtrack     4216     4216        0        0                           
+    GL mtrack     8645     8645        0        0                           
+      Unknown      742      724        0        0                           
+        TOTAL    70836    56893     5072       70   703903   697708     6194
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     7708
+         Native Heap:     6996
+                Code:    31072
+               Stack:      132
+            Graphics:    12861
+       Private Other:     3196
+              System:     8871
+ 
+               TOTAL:    70836       TOTAL SWAP PSS:       70
+ 
+ Objects
+               Views:        9         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       11        Proxy Binders:       30
+       Parcel memory:        3         Parcel count:       12
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+--------------------
+Tue Mar 18 16:43:55 EET 2025
+--------------------
+Applications Memory Usage (in Kilobytes):
+Uptime: 94357692 Realtime: 371154512
+
+** MEMINFO in pid 27793 [com.example.oomapp] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     7128     6996        0       32   697832   694674     3157
+  Dalvik Heap     3423     3360        0       19     6072     3036     3036
+ Dalvik Other     1937     1932        0        0                           
+        Stack      132      132        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev       17        0       16        0                           
+     .so mmap     6183      140     2492        6                           
+    .jar mmap     4426        0     1720        0                           
+    .apk mmap     1663       24      612        0                           
+    .ttf mmap      177        0        8        0                           
+    .dex mmap    26078    26076        0        0                           
+    .oat mmap      168        0        0        0                           
+    .art mmap     4682     4384       28       13                           
+   Other mmap     1207      324      196        0                           
+   EGL mtrack     4216     4216        0        0                           
+    GL mtrack     8645     8645        0        0                           
+      Unknown      742      724        0        0                           
+        TOTAL    70896    56953     5072       70   703904   697710     6193
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     7772
+         Native Heap:     6996
+                Code:    31072
+               Stack:      132
+            Graphics:    12861
+       Private Other:     3192
+              System:     8871
+ 
+               TOTAL:    70896       TOTAL SWAP PSS:       70
+ 
+ Objects
+               Views:        9         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       11        Proxy Binders:       30
+       Parcel memory:        3         Parcel count:       12
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+--------------------
+Tue Mar 18 16:44:01 EET 2025
+--------------------
+Applications Memory Usage (in Kilobytes):
+Uptime: 94363739 Realtime: 371160558
+
+** MEMINFO in pid 27793 [com.example.oomapp] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap    33212    33080        0       32   728664   695012    33651
+  Dalvik Heap     3423     3360        0       19     6072     3036     3036
+ Dalvik Other     1937     1932        0        0                           
+        Stack      132      132        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev       17        0       16        0                           
+     .so mmap     6458      152     2688        6                           
+    .jar mmap     4521        0     1804        0                           
+    .apk mmap     1663       24      612        0                           
+    .ttf mmap      177        0        8        0                           
+    .dex mmap    26078    26076        0        0                           
+    .oat mmap      168        0        0        0                           
+    .art mmap     4682     4384       28       13                           
+   Other mmap     1212      324      196        0                           
+   EGL mtrack     4216     4216        0        0                           
+    GL mtrack     8644     8644        0        0                           
+      Unknown      825      808        0        0                           
+        TOTAL    97437    83132     5352       70   734736   698048    36687
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     7772
+         Native Heap:    33080
+                Code:    31364
+               Stack:      132
+            Graphics:    12860
+       Private Other:     3276
+              System:     8953
+ 
+               TOTAL:    97437       TOTAL SWAP PSS:       70
+ 
+ Objects
+               Views:        9         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       11        Proxy Binders:       30
+       Parcel memory:        3         Parcel count:       12
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
