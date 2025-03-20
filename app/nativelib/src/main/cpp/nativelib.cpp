@@ -19,10 +19,10 @@ Java_com_example_nativelib_NativeLib_stringFromJNI(
 extern "C" JNIEXPORT jstring JNICALL
 Java_com_example_nativelib_NativeLib_nativeOOM(
         JNIEnv *env,
-        jobject /* this */
+        jobject
 ) {
 
-    const size_t large_size = 1024 * 1024 * 1023 + 1024; // 4 GB
+    const size_t large_size = 1024 * 256 * 1023 + 1024; // 1 GB
     int *large_array = new int[large_size];
 
     std::string hello = "Hello from C++";
@@ -35,10 +35,10 @@ Java_com_example_nativelib_NativeLib_nativeOOM(
 extern "C" JNIEXPORT jstring JNICALL
 Java_com_example_nativelib_NativeLib_nativeOOMFill(
         JNIEnv *env,
-        jobject /* this */
+        jobject
 ) {
 
-    const size_t large_size = 1024 * 1024 * 1023 + 1024;  //  4 GB
+    const size_t large_size = 1024 * 256 * 1023 + 1024;  //  1 GB
     int *large_array = new int[large_size];
 
     // Заполняем память, чтобы ОС выделила реальные физические страницы RAM
